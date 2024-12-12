@@ -14,48 +14,48 @@
   >
 </head>
 <body>
-  <div class="aaa">
+  <div class="header">
     <img src="./eisenhower-matrix.jpg">
     <a 
-      class="more_inf" 
+      class="header__link" 
       href="https://goal-life.com/page/method/matrix-eisenhower"
     >
       Want more details?
     </a>
   </div>
-  <div class="centered-main-page-element">
-    <p id="topSectionForAddingElementToList">
+  <div class="app">
+    <p id="add-section">
       <label for="new-task">Add Item</label>
-      <div class="task-row-wrapper">
+      <div class="app__input-container">
         <input 
           id="new-task"
-          class="task" 
+          class="app__input" 
           type="text"
         >
         <button>Add</button>
       </div>
     </p>
     <h3>Todo</h3>
-    <ul id="incompleteTasks">
+    <ul id="incomplete-tasks">
       <li>
         <input type="checkbox">
-        <label class="task">Pay Bills</label>
-        <input type="text" class="task">
-        <button class="edit">Edit</button>
-        <button class="delete">
+        <label class="app__task-label">Pay Bills</label>
+        <input type="text" class="app__input">
+        <button class="app__edit-btn">Edit</button>
+        <button class="app__delete-btn">
           <img src="./remove.svg">
         </button>
       </li>
-      <li class="editMode">
+      <li class="edit-mode">
         <input type="checkbox">
-        <label class="task">Go Shopping</label>
+        <label class="app__task-label">Go Shopping</label>
         <input 
           type="text" 
           value="Go Shopping" 
-          class="task"
+          class="app__input"
         >
-        <button class="edit">Save</button>
-        <button class="delete">
+        <button class="app__edit-btn">Save</button>
+        <button class="app__delete-btn">
           <img src="./remove.svg">
         </button>
       </li>
@@ -64,10 +64,10 @@
     <ul id="completed-tasks">
       <li>
         <input type="checkbox" checked>
-        <label class="task">See the Doctor</label>
-        <input type="text" class="task">
-        <button class="edit">Edit</button>
-        <button class="delete">
+        <label class="app__task-label">See the Doctor</label>
+        <input type="text" class="app__input">
+        <button class="app__edit-btn">Edit</button>
+        <button class="app__delete-btn">
           <img src="./remove.svg">
         </button>
       </li>
