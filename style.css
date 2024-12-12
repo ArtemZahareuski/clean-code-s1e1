@@ -17,7 +17,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .header { 
     text-align: center;
   }
@@ -36,14 +36,14 @@
   display: flex;
 }
 #completed-tasks, #incomplete-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .app__item, .app__list-title {
-  list-style:none;
+  list-style: none;
 }
-.input,.app__btn{
-  outline:none;
+.input, .app__btn{
+  outline: none;
 }
 .app__btn {
   background: none;
@@ -119,7 +119,7 @@
   font-size: 18px;
   width: 226px;
 }
-.app__item >    .app__edit-input {
+.app__item > .app__edit-input {
   width: 226px
 }
 .app__delete-img {
@@ -139,14 +139,14 @@
 
 /* Edit Task */
 .app__edit-input {
-  display:none
+  display: none
 }
 
 .edit-mode .app__edit-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .app__task-label {
-  display:none;
+  display: none;
 }
