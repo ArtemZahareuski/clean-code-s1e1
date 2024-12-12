@@ -27,7 +27,8 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.app__input, .app__task-label {
+.app__input,
+.app__task-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -35,14 +36,17 @@
 .app__input-container {
   display: flex;
 }
-#completed-tasks, #incomplete-tasks {
+#completed-tasks,
+#incomplete-tasks {
   margin: 0;
   padding: 0px;
 }
-.app__item, .app__list-title {
+.app__item,
+.app__list-title {
   list-style: none;
 }
-.input, .app__btn{
+.input,
+.app__btn{
   outline: none;
 }
 .app__btn {
@@ -68,7 +72,8 @@
   margin: 0;
   text-transform: uppercase;
 }
-.app__edit-input, .app__add-input {
+.app__edit-input,
+.app__add-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
