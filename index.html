@@ -14,7 +14,7 @@
   >
 </head>
 <body class="body">
-  <div class="header">
+  <header class="header">
     <img class="header__img" src="./eisenhower-matrix.jpg">
     <a 
       class="header__link" 
@@ -22,9 +22,9 @@
     >
       Want more details?
     </a>
-  </div>
-  <div class="app">
-    <p id="add-section">
+  </header>
+  <main class="app">
+    <div id="add-section">
       <label class="app__add-label" for="new-task">Add Item</label>
       <div class="app__input-container">
         <input 
@@ -34,45 +34,49 @@
         >
         <button class="app__btn">Add</button>
       </div>
-    </p>
-    <h3 class="app__list-title">Todo</h3>
-    <ul id="incomplete-tasks">
-      <li class="app__item">
-        <input type="checkbox" class="input app__check-input">
-        <label class="app__task-label">Pay Bills</label>
-        <input type="text" class="input app__input app__edit-input">
-        <button class="app__btn app__edit-btn">Edit</button>
-        <button class="app__btn app__delete-btn">
-          <img src="./remove.svg" class="app__delete-img">
-        </button>
-      </li>
-      <li class="app__item edit-mode">
-        <input type="checkbox" class="input app__check-input">
-        <label class="app__task-label">Go Shopping</label>
-        <input 
-          type="text" 
-          value="Go Shopping" 
-          class="input app__input app__edit-input"
-        >
-        <button class="app__btn app__edit-btn">Save</button>
-        <button class="app__btn app__delete-btn">
-          <img src="./remove.svg" class="app__delete-img">
-        </button>
-      </li>
-    </ul>
-    <h3 class="app__list-title">Completed</h3>
-    <ul id="completed-tasks">
-      <li class="app__item">
-        <input type="checkbox" class="input app__check-input" checked>
-        <label class="app__task-label">See the Doctor</label>
-        <input type="text" class="input app__input app__edit-input">
-        <button class="app__btn app__edit-btn">Edit</button>
-        <button class="app__btn app__delete-btn">
-          <img src="./remove.svg" class="app__delete-img">
-        </button>
-      </li>
-    </ul>
-  </div>
+    </div>
+    <section>
+      <h3 class="app__list-title">Todo</h3>
+      <ul id="incomplete-tasks">
+        <li class="app__item">
+          <input type="checkbox" class="input app__check-input">
+          <label class="app__task-label">Pay Bills</label>
+          <input type="text" class="input app__input app__edit-input">
+          <button class="app__btn app__edit-btn">Edit</button>
+          <button class="app__btn app__delete-btn">
+            <img src="./remove.svg" class="app__delete-img">
+          </button>
+        </li>
+        <li class="app__item edit-mode">
+          <input type="checkbox" class="input app__check-input">
+          <label class="app__task-label">Go Shopping</label>
+          <input 
+            type="text" 
+            value="Go Shopping" 
+            class="input app__input app__edit-input"
+          >
+          <button class="app__btn app__edit-btn">Save</button>
+          <button class="app__btn app__delete-btn">
+            <img src="./remove.svg" class="app__delete-img">
+          </button>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h3 class="app__list-title">Completed</h3>
+      <ul id="completed-tasks">
+        <li class="app__item">
+          <input type="checkbox" class="input app__check-input" checked>
+          <label class="app__task-label">See the Doctor</label>
+          <input type="text" class="input app__input app__edit-input">
+          <button class="app__btn app__edit-btn">Edit</button>
+          <button class="app__btn app__delete-btn">
+            <img src="./remove.svg" class="app__delete-img">
+          </button>
+        </li>
+      </ul>
+    </section>
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
